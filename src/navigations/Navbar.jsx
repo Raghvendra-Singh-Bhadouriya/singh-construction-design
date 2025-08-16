@@ -9,10 +9,10 @@ const Navbar = () => {
 console.log(sideBarOpen)
     return(
         <>
-        <nav className="hidden md:block shadow-2xl fixed w-full top-[0%] bg-[rgba(176,180,184,0.5)] backdrop-blur-sm z-50">
-            <div className="flex justify-between mr-[1%] ml-[1%]">
-                <div className="w-[15%] bg-white/0 backdrop-blur-sm">
-                    <img className="w-[100%] rounded-l-full bg-white/0 backdrop-blur-sm"
+        <nav className="hidden md:block shadow-2xl fixed w-full top-[0%] bg-black backdrop-blur-sm z-50">
+            <div className="flex justify-between mr-[2%] ml-[2%] p-1">
+                <div className="w-[8%] bg-white/0 backdrop-blur-sm">
+                    <img className="w-[100%] bg-white/0 backdrop-blur-sm"
                     src="/singh_construction_logo.png" alt="singh_construction_logo.png"/>
                 </div>
                 <div className=" w-[70%] lg:w-[50%] xl:w-[40%]">
@@ -35,18 +35,18 @@ console.log(sideBarOpen)
         </nav>
 
 {/* ===========================Second Navbar================================== */}
-
-        <nav className="shadow-2xl fixed w-full h-[50px] p-[4%] top-[0%] bg-[rgba(176,180,184,0.5)] backdrop-blur-sm z-50 block sm:hidden">
-            <div className="flex justify-between">
-                <div className="w-[15%] bg-white/0 backdrop-blur-sm">
+{/* bg-[rgba(176,180,184,0.5)] */}
+        <nav className=" shadow-2xl fixed w-full p-[0%] top-[0%] bg-black backdrop-blur-sm z-50 block sm:hidden">
+            <div className="flex justify-between ml-[2%] mr-[2%] p-2">
+                <div className="w-[18%] bg-white/0 backdrop-blur-sm">
                     <img src="/singh_construction_logo.png" alt="singh_construction_logo.png"
-                    className="w-[100%] rounded-l-full bg-white/0 backdrop-blur-sm"
+                    className="w-[100%] bg-white/0 backdrop-blur-sm"
                     />
                 </div>
-                <div>
+                <div className="flex items-center justify-center">
                     <FaBars
                     onClick={Open}
-                    className="text-2xl text-yellow-500 cursor-pointer" />
+                    className="text-center text-2xl text-yellow-500 cursor-pointer" />
                 </div>
             </div>
         </nav>

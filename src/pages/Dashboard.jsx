@@ -71,7 +71,7 @@ const Dashboard = () => {
     return(
         <>
         <div >
-            <div className="w-[100%] m-auto mt-[6%]  ">
+            <div className="w-[100%] m-auto mt-[15%] md:mt-[10%] lg:mt-[6%] ">
                 <Slider {...settings}>
                     {dashboardSliderData.map((items) => {
                         return(
@@ -87,9 +87,12 @@ const Dashboard = () => {
 
             <div className="p-[5%]">
                 <div className="">
-                    <p className="text-xl font-bold text-gray-500 text-center">Construction • RemodeLing • Flooring • Architectural Designing</p>
-                    <div className="w-[10%] m-auto mt-[2%]">
-                        <img src="/singh_construction_logo.png"/>
+                    <p className="text-md lg:text-xl font-bold text-gray-500 text-center">Construction • RemodeLing • Flooring • Architectural Designing</p>
+                    <div className="w-[30%] m-auto mt-[5%] transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:bg-white/80">
+                        <img
+                        src="/singh_construction_logo.png"
+                        className="rounded-lg"
+                        />
                     </div>
                 </div>
             </div>

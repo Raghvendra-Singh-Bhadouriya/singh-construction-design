@@ -10,7 +10,7 @@ const SideBar = () => {
     return(
         <>
         <nav className="fixed w-full h-screen z-50 top-0 bg-[rgba(176,180,184,0.5)]">
-            <div className="absolute right-0 top-0 w-[60%] h-full bg-white/80">
+            <div className="absolute right-0 top-0 w-[60%] h-full bg-black">
             <IoMdClose
             onClick={Close}
             className="absolute top-4 right-4 text-2xl text-yellow-500 cursor-pointer" />
@@ -20,7 +20,7 @@ const SideBar = () => {
             <div className="mt-[20%] h-full">
                         <Link to="/">
                             <p 
-                            className="mb-[10%] font-bold text-yellow-500 hover:text-yellow-300 transition-colors duration-300"
+                            className="ml-[5%] mb-[10%] font-bold text-yellow-500 hover:text-yellow-300 transition-colors duration-300"
                             onClick={Close}
                             >
                                 DASHBOARD
@@ -28,7 +28,7 @@ const SideBar = () => {
                         </Link>
                         <Link to="/what-we-do">
                             <p 
-                            className="mb-[10%] font-bold text-yellow-500 hover:text-yellow-300 transition-colors duration-300"
+                            className="ml-[5%] mb-[10%] font-bold text-yellow-500 hover:text-yellow-300 transition-colors duration-300"
                             onClick={Close}
                             >
                                 WHAT WE DO
@@ -36,7 +36,7 @@ const SideBar = () => {
                         </Link>
                         <Link to="/projects">
                             <p 
-                            className="mb-[10%] font-bold text-yellow-500 hover:text-yellow-300 transition-colors duration-300"
+                            className="ml-[5%] mb-[10%] font-bold text-yellow-500 hover:text-yellow-300 transition-colors duration-300"
                             onClick={Close}
                             >
                                 PROJECTS
@@ -44,7 +44,7 @@ const SideBar = () => {
                         </Link>
                         <Link to="contact-us">
                             <p
-                            className="mb-[10%] font-bold text-yellow-500 hover:text-yellow-300 transition-colors duration-300"
+                            className="ml-[5%] mb-[10%] font-bold text-yellow-500 hover:text-yellow-300 transition-colors duration-300"
                             onClick={Close}
                             >
                                 CONTACT US
