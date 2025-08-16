@@ -1,0 +1,23 @@
+@import "tailwindcss";
+/* Slick Slider core styles */
+/* @import "~slick-carousel/slick/slick.css"; */
+/* Slick Slider theme (optional) */
+/* @import "~slick-carousel/slick/slick-theme.css"; */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #242424 ;
+  background-color: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #242424 ;
+    background-color: #ffffff;
+  }
+}
+
+/* Hide scrollbar but still allow scrolling */
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}

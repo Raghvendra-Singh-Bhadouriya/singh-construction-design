@@ -1,0 +1,44 @@
+{
+    "dashboardSlider": [
+        {
+            "id": 1,
+            "url": "/pexels-falling4utah-1080719.jpg"
+        },
+        {
+            "id": 2,
+            "url": "/pexels-falling4utah-1080721.jpg"
+        },
+        {
+            "id": 3,
+            "url": "/pexels-falling4utah-2724748.jpg"
+        },
+        {
+            "id": 4,
+            "url": "/pexels-fotoaibe-1571460.jpg"
+        },
+        {
+            "id": 5,
+            "url": "/pexels-fotoaibe-1643383.jpg"
+        },
+        {
+            "id": 6,
+            "url": "/pexels-fotoaibe-1643384.jpg"
+        },
+        {
+            "id": 7,
+            "url": "/pexels-fotoaibe-1743227.jpg"
+        },
+        {
+            "id": 8,
+            "url": "/pexels-jvdm-1457842.jpg"
+        },
+        {
+            "id": 9,
+            "url": "/pexels-pixabay-259962.jpg"
+        },
+        {
+            "id": 10,
+            "url": "/pexels-pixabay-280232.jpg"
+        }
+    ]
+}
