@@ -4,6 +4,7 @@ import WhatWeDo from "../pages/WhatWeDo";
 import ContactUs from "../pages/ContactUs";
 import Projects from "../pages/Projects";
 import SingleImage from "../pages/SingleImage";
+import UploadDataForm from "../pages/UploadDataForm";
 
 const AllRoutes = () => {
     return (
@@ -13,6 +14,7 @@ const AllRoutes = () => {
             <Route path="/projects" element={<Projects />} />
             <Route path="/single_image/:id" element={<SingleImage/>} />
             <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/upload_project_data" element={<UploadDataForm/>} />
         </Routes>
     )
 }
