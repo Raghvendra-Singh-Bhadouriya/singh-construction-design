@@ -10,7 +10,7 @@ const SingleVideo = () => {
         try {
             const res = await axios({
                 method: "get",
-                url: `http://localhost:8080/single_video/${id}`
+                url: `https://singh-construction-design-bc.onrender.com/single_video/${id}`
             })
             //const res = await axios.get(`http://localhost:8080/single_image/${id}`)
             setVideo(res?.data?.data)

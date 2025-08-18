@@ -182,7 +182,7 @@ const handleVideoChange = (e) => {
       videos.forEach(file => formData.append("videos", file));
 
       const res = await axios.post(
-        "http://localhost:8080/add_project",
+        "https://singh-construction-design-bc.onrender.com/add_project",
         formData,
         {
           headers: {
