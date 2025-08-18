@@ -15,10 +15,11 @@ const SideBar = () => {
             onClick={Close}
             className="absolute top-4 right-4 text-2xl text-yellow-500 cursor-pointer" />
 
-            <hr className="border-t-1 w-full m-auto mt-[20%] mb-[5%] border-gray-300"/>
+                <hr className="border-t-1 w-full m-auto mt-[20%] mb-[5%] border-gray-300"/>
 
-            <div className="mt-[20%] h-full">
+                    <div className="mt-[20%] h-full">
                         <Link to="/">
+                        
                             <p 
                             className="ml-[5%] mb-[10%] font-bold text-yellow-500 hover:text-yellow-300 transition-colors duration-300"
                             onClick={Close}
@@ -52,6 +53,7 @@ const SideBar = () => {
                         </Link>
                     </div>
             </div>
+            
         </nav>
         </>
     )
