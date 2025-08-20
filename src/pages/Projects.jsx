@@ -38,7 +38,7 @@ const Projects = () => {
         <>
         <div className="mt-[6%]">
             <div className="w-[100%] h-[200px]">
-                <img className="w-[100%] h-[200px]" src="https://images.pexels.com/photos/301378/pexels-photo-301378.jpeg"/>
+                <img className="w-[100%] h-[200px]" src="https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg"/>
                 <h1 className="relative top-[-70%] text-center text-4xl lg:text-6xl font-bold text-white text-shadow-md">PROJECTS</h1>
             </div>
 
@@ -111,3 +111,8 @@ const Projects = () => {
 }
 
 export default Projects;
+
+// https://images.pexels.com/photos/301378/pexels-photo-301378.jpeg  =>  Wooden ply image.
+// https://images.pexels.com/photos/194096/pexels-photo-194096.jpeg  =>  Stone wall image.
+// https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg  =>  Bricks wall image.
+// https://images.pexels.com/photos/268966/pexels-photo-268966.jpeg
