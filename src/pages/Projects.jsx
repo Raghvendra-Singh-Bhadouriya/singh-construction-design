@@ -45,7 +45,7 @@ const Projects = () => {
             <hr className="border-t-1 w-[70%] m-auto mt-[5%] mb-[5%] border-gray-300"/>
 
             
-            <div className="w-[100%] md:w-[70%] m-auto">
+            <div className="w-[90%] md:w-[70%] m-auto">
                 {loading ? (
                     <Loading />
                     ) : (
