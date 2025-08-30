@@ -29,9 +29,9 @@ console.log(image)
 
     return(
         <>
-        <div className="">
-            <div className="sm:w-[100%] lg:w-[60%] m-auto mt-[8%] mb-[6%]">
-                <img className="w-[100%] h-[500px] rounded-xl" src={image.url} alt="single image"/>       
+        <div className="h-[90vh]">
+            <div className="w-[100%] m-auto mt-[30%] md:mt-[50%] lg:mt-[8%] mb-[6%]">
+                <img className="w-[100%] h-[500px] lg:w-auto lg:m-auto rounded-xl" src={image.url} alt="single image"/> 
             </div>
         </div>
         </>
