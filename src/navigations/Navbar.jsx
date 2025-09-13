@@ -9,11 +9,11 @@ const Navbar = () => {
 console.log(sideBarOpen)
     return(
         <>
-        <nav className="hidden md:block shadow-2xl fixed w-full top-[0%] bg-black backdrop-blur-sm z-50">
-            <div className="flex justify-between mr-[2%] ml-[2%] p-1">
-                <div className="w-[8%] bg-white/0 backdrop-blur-sm">
+        <nav className="hidden md:block shadow-2xl fixed w-full top-[0%] backdrop-blur-sm z-50">
+            <div className="flex justify-between mr-[2%] ml-[2%] ">
+                <div className="w-[6%] md:w-[10%] lg:w-[6%] bg-white/0 backdrop-blur-sm">
                     <img className="w-[100%] bg-white/0 backdrop-blur-sm"
-                    src="/singh_construction_logo.png" alt="singh_construction_logo.png"/>
+                    src="/20250906_022553-removebg-preview.png" alt="20250906_022553-removebg-preview.png"/>
                 </div>
                 <div className=" w-[70%] lg:w-[50%] xl:w-[40%]">
                     <div className="flex items-center justify-between h-full">
@@ -36,10 +36,10 @@ console.log(sideBarOpen)
 
 {/* ===========================Second Navbar================================== */}
 {/* bg-[rgba(176,180,184,0.5)] */}
-        <nav className=" shadow-2xl fixed w-full p-[0%] top-[0%] bg-black backdrop-blur-sm z-50 block sm:hidden">
-            <div className="flex justify-between ml-[2%] mr-[2%] p-2">
+        <nav className=" shadow-2xl fixed w-full top-[0%] backdrop-blur-sm z-50 block sm:hidden">
+            <div className="flex justify-between ml-[2%] mr-[2%]">
                 <div className="w-[18%] bg-white/0 backdrop-blur-sm">
-                    <img src="/singh_construction_logo.png" alt="singh_construction_logo.png"
+                    <img src="/20250906_022553-removebg-preview.png" alt="20250906_022553-removebg-preview.png"
                     className="w-[100%] bg-white/0 backdrop-blur-sm"
                     />
                 </div>

@@ -42,13 +42,13 @@ const ContactUs = () => {
     ]
     return(
         <>
-        <div className="mt-[12%] md:mt-[10%] lg:mt-[6%]">
+        <div className="mt-[18%] md:mt-[10%] lg:mt-[6%] h-screen md:h-screen lg:h-auto">
             <div className="w-[100%] h-[200px]">
                 <img className="w-[100%] h-[200px] absolute" src="https://yt3.googleusercontent.com/xCRnLF9mrLmKFQIvCraCIsjXGmrAH8bAMIAKmMPg6ug_AwKgibyeiOBGY7Pqf9qbkSZl0yynaw=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" alt="" />
                 <h1 className="relative top-[40%] text-center text-4xl lg:text-6xl font-bold text-white text-shadow-md">CONTACT US</h1>
             </div>
 
-            <div class="bg-gray-900 text-white p-[6%] shadow-lg text-center">
+            <div class="bg-gray-900 text-white p-[6%] shadow-lg text-center ">
                 <div className="w-[80%] m-auto">
                 <h2 class="text-2xl font-bold mb-4">Get in Touch</h2>
 
@@ -57,12 +57,12 @@ const ContactUs = () => {
                         <>
                         <div class="flex items-center justify-between sm:w-[100%] md:w-[80%] lg-w-[50%] m-auto mb-4">
                             <img src={connect.img}
-                            className="w-[10%]"
+                            className="w-[10%] transition duration-300 ease-in-out hover:drop-shadow-[0_0_12px_#ff6a00]"
                             />
                             <div className="felx">
-                                <a href={connect.link1} class="text-lg hover:text-yellow-400 transition">{connect.text1}</a>
+                                <a href={connect.link1} class="text-lg hover:text-yellow-400 transition duration-300 ease-in-out hover:drop-shadow-[0_0_12px_#ff6a00]">{connect.text1}</a>
                                 <span>, </span>
-                                <a href={connect.link1} class="text-lg hover:text-yellow-400 transition">{connect.text2}</a>
+                                <a href={connect.link1} class="text-lg hover:text-yellow-400 transition duration-300 ease-in-out hover:drop-shadow-[0_0_12px_#ff6a00]">{connect.text2}</a>
                             </div>
                            
                         </div>

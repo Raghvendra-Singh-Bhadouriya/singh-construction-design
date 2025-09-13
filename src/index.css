@@ -17,6 +17,11 @@
   }
 }
 
+@keyframes float {
+  0%, 100% { transform: translateY(50); }
+  50% { transform: translateY(-50px); }
+}
+
 /* Hide scrollbar but still allow scrolling */
 ::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Edge */
