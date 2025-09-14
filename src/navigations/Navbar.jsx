@@ -46,7 +46,8 @@ console.log(sideBarOpen)
                 <div className="flex items-center justify-center">
                     <FaBars
                     onClick={Open}
-                    className="text-center text-2xl text-yellow-500 cursor-pointer" />
+                    className="text-center text-2xl text-yellow-500 cursor-pointer" 
+                    />
                 </div>
             </div>
         </nav>

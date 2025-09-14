@@ -18,7 +18,8 @@ const SideBar = () => {
             ${Open ? "translate-x-0" : "translate-x-full"}`}>
             <IoMdClose
             onClick={Close}
-            className="absolute top-4 right-4 text-2xl text-yellow-500 cursor-pointer" />
+            className="absolute top-4 right-4 text-2xl text-yellow-500 cursor-pointer" 
+            />
 
                 <hr className="border-t-1 w-full m-auto mt-[20%] mb-[5%] border-gray-300"/>
 
